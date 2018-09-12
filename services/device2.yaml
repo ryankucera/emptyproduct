@@ -3,14 +3,14 @@ protocol:
 provisioning:
   auth_type: cik
   
-resources:
--   alias: temp
-    format: number
-    settable: true
-   
 #resources:
-#  temp:
-#    allowed: []
-#    format: string
+#-   alias: temp
+#    format: number
 #    settable: true
-#    unit: ''
+   
+resources:
+  temp:
+    allowed: []
+    format: string
+    settable: true
+    unit: ''
