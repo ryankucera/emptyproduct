@@ -1,1 +1,9 @@
----
+formatversion: 1.0.0
+
+info:
+  name: Name value here
+  summary: No summary available
+  description: |
+    No description available
+  authors: ['Ryan Kucera <ryankucera@exosite.com>']
+  version: 0.0.1
