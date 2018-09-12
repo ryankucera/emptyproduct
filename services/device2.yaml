@@ -1,8 +1,9 @@
 protocol:
   name: onep
+
 provisioning:
   auth_type: cik
-   
+
 resources:
   temp:
     allowed: []
