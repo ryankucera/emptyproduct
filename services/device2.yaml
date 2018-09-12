@@ -1,7 +1,7 @@
 protocol:
   name: onep
 provisioning:
-  auth_type: tls
+  auth_type: certificate
 
 resources:
   claim_code:
