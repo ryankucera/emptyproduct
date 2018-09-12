@@ -1,10 +1,16 @@
 protocol:
   name: onep
-
 provisioning:
   auth_type: cik
-
+  
+#resources:
+#-   alias: temp
+#    format: number
+#    settable: true
+   
 resources:
   temp:
+    allowed: []
     format: string
     settable: true
+    unit: ''
