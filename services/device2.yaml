@@ -4,14 +4,3 @@ protocol:
   name: onep
 provisioning:
   auth_type: token
-
-resources:
-  temperature:
-    format: number
-  humidity:
-    format: number
-  state:
-    format: number
-    initial: 0
-  uptime:
-    format: number
