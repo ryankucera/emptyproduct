@@ -8,26 +8,26 @@ info:
   authors: ['Ryan Kucera <ryankucera@exosite.com>']
   version: 0.0.1
 
-assets:
-  location: assets
-  include: '**/*'
-  exclude: ['**._html/.*_html']
-  default_page: index.html
-
-endpoints:
-  location: endpoints
-  include: '**/*.lua'
-  exclude: ['*_test.lua', '*_spec.lua']
-  cors: {'origin': ['http://localhost:*']}
-
-modules:
-  location: modules
-  include: '**/*.lua'
-  exclude: ['*_test.lua', '*_spec.lua']
+#assets:
+#  location: assets
+#  include: '**/*'
+#  exclude: ['**._html/.*_html']
+#  default_page: index.html
+#
+#endpoints:
+#  location: endpoints
+#  include: '**/*.lua'
+#  exclude: ['*_test.lua', '*_spec.lua']
+#  cors: {'origin': ['http://localhost:*']}
+#
+#modules:
+#  location: modules
+#  include: '**/*.lua'
+#  exclude: ['*_test.lua', '*_spec.lua']
 
 services:
   location: services
   include: '**/*.lua'`
   exclude: ['*_test.lua', '*_spec.lua']
   
-init_script: init.lua
+#init_script: init.lua
