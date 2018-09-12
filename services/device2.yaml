@@ -6,28 +6,19 @@ protocol:
 provisioning:
   auth_type: token
 
-led:
-  allowed: []
-  format: string
-  settable: true
-  unit: ""
-ontime:
-  allowed: []
-  format: number
-  settable: false
-  unit: ""
-temp:
-  allowed: []
-  format: number
-  settable: false
-  unit: ""
-usrsw1:
-  allowed: []
-  format: number
-  settable: false
-  unit: ""
-usrsw2:
-  allowed: []
-  format: number
-  settable: false
-  unit: ""
+resources:
+-   alias: temp
+    format: number
+    settable: false
+-   alias: usrsw1
+    format: number
+    settable: false
+-   alias: usrsw2
+    format: number
+    settable: false
+-   alias: ontime
+    format: number
+    settable: false
+-   alias: led
+    format: number
+    settable: true
