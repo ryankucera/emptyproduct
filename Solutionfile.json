@@ -1,0 +1,15 @@
+{
+  "default_page": "index.html",
+  "file_dir": "files",
+  "custom_api": "solution_spec_assets/all_routes.lua",
+  "modules": {
+    "table": "modules/table_util.lua",
+    "data_handler": "modules/data_handler.lua"
+  },
+  "event_handler": {
+    "device": {
+      "datapoint": "services/{product_id}_event.lua"
+    }
+  },
+  "cors": {"origin": ["http://localhost:*"]}
+}
