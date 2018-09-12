@@ -1,7 +1,0 @@
----
-# Murano Product Spec File - Example
-
-protocol:
-  name: onep
-provisioning:
-  auth_type: token
