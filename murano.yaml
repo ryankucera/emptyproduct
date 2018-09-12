@@ -1,13 +1,36 @@
 formatversion: 1.0.0
 
 info:
-  name: Name value here
-  summary: No summary available
-  description: No description available
-  authors: ['Ryan Kucera <ryankucera@exosite.com>']
-  version: 0.0.1
+  name: ExosenseOEM
+  summary: One line summary of
+  description: |
+    In depth description of
 
-services:
+    With lots of details.
+  authors:
+    - 'exosite'
+  version: 1.0.0
+
+assets:
+  location: app/dist
+  include: '**/*'
+  exclude: ['**/.*']
+  default_page: index.html
+
+modules:
+  location: modules
+  include: '**/*.lua'
+  exclude: ['*_test.lua', '*_spec.lua']
+
+services: # Also applies for service configuration using .yaml format.
   location: services
   include: '**/*.lua'
   exclude: ['*_test.lua', '*_spec.lua']
+
+endpoints:
+  location: routes
+  include: '**/*.lua'
+  exclude: ['*_test.lua', '*_spec.lua']
+  cors: {'origin': ['http://localhost:*']}
+
+init_script: init.lua
