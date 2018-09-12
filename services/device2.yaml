@@ -1,17 +1,9 @@
 protocol:
   name: onep
-  port: 443
 
 provisioning:
-  enabled: true
   auth_type: cik
-  presenter_identity: true
-    
-#resources:
-#-   alias: temp
-#    format: number
-#    settable: true
-   
+
 resources:
   temp:
     format: string
