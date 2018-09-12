@@ -33,4 +33,4 @@ endpoints:
   exclude: ['*_test.lua', '*_spec.lua']
   cors: {'origin': ['http://localhost:*']}
 
-init_script: init.lua
+# init_script: init.lua
