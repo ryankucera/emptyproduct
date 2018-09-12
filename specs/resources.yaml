@@ -1,0 +1,5 @@
+led:
+  allowed: []
+  format: string
+  settable: true
+  unit: ""
