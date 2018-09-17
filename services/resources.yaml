@@ -1,37 +1,11 @@
+# Murano Product Spec File
+
 resources:
-  claim_code:
-    allowed: []
+-   alias: data
     format: string
-    settable: true
-    unit: ''
-  config_applications:
-    allowed: []
+-   alias: config
     format: string
-    settable: true
-    unit: ''
-  config_io:
-    allowed: []
+-   alias: testone
     format: string
-    settable: true
-    unit: ''
-  config_network:
-    allowed: []
-    format: string
-    settable: true
-    unit: ''
-  config_oem:
-    allowed: []
-    format: string
-    settable: true
-    unit: ''
-  data_in:
-    allowed: []
-    format: string
-    settable: true
-    unit: ''
-  data_out:
-    allowed: []
-    format: string
-    settable: true
-    unit: ''
- 
+-   alias: testtwo
+    format: number
