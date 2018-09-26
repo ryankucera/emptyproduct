@@ -1,0 +1,11 @@
+# Murano Product Spec File
+
+resources:
+-   alias: data
+    format: string
+-   alias: config
+    format: string
+-   alias: testone
+    format: string
+-   alias: testtwo
+    format: number
