@@ -4,39 +4,23 @@ provisioning:
   auth_type: cik
 
 resources:
-  claim_code:
+  data:
     allowed: []
     format: string
     settable: true
     unit: ''
-  config_applications:
+  config:
     allowed: []
     format: string
     settable: true
     unit: ''
-  config_io:
+  testone:
     allowed: []
     format: string
     settable: true
     unit: ''
-  config_network:
+  testtwo:
     allowed: []
-    format: string
+    format: number
     settable: true
     unit: ''
-  config_oem:
-    allowed: []
-    format: string
-    settable: true
-    unit: ''
-  data_in:
-    allowed: []
-    format: string
-    settable: true
-    unit: ''
-  data_out:
-    allowed: []
-    format: string
-    settable: true
-    unit: ''
- 
